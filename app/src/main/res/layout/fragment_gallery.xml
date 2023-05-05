@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="Ecco le tue Ordinazioni!"
+            android:textSize="20sp"
+            android:id="@+id/PietanzaColumn"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            ></TextView>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/TitoloColonna1" />
+
+            <TextView
+                android:layout_width="107dp"
+                android:gravity="center"
+                android:text="@string/TitoloColonna2"
+                android:id="@+id/NumeroColumn"/>
+
+            <TextView
+                android:layout_width="91dp"
+                android:gravity="center"
+                android:text="@string/TitoloColonna3" />
+
+            <TextView
+                android:layout_width="102dp"
+                android:gravity="center"
+                android:text="@string/TitoloColonna4"
+                android:id="@+id/CostoColumn"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:text="roba" />
+
+            <TextView
+                android:gravity="center"
+                android:text="roba"  />
+
+            <TextView
+                android:gravity="center"
+                android:text="roba"  />
+
+            <TextView
+                android:gravity="center"
+                android:text="roba"  />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:text="roba" />
+            <TextView
+                android:text="roba"
+                android:gravity="center"/>
+            <TextView
+                android:text="roba"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="70dp"
+                android:gravity="center"
+                android:text="roba"  />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

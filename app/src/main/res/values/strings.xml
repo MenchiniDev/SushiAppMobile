@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppProva</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SushiApp!</string>
+    <string name="nav_header_subtitle">lorenzo.menchini42@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="option2_settings">Log Out</string>
+    <string name="option3_settings">Valutami!</string>
+    <string name="menu_home">Menu</string>
+    <string name="FirstPageName">Login</string>
+    <string name="menu_gallery">Ordinazioni Totali</string>
+    <string name="menu_slideshow">Riepilogo</string>
+    <string name="TitoloColonna1">Pietanza</string>
+    <string name="TitoloColonna2">Numero</string>
+    <string name="TitoloColonna3">Quantita</string>
+    <string name="TitoloColonna4">Costo</string>
+</resources>
